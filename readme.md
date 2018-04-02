@@ -4,6 +4,20 @@ I really liked Bear, but I also sometimes need to access notes on other
 computers.  This tool will migrate exported Bear (markdown format)
 notes into Paper.
 
+## Install
+
+Install from PyPi:
+
+```
+pip install bear-to-paper
+```
+
+or from a clone of this repository:
+
+```
+pip install .
+```
+
 ## Instructions
 
 First, you'll need to get a Dropbox access token:
