@@ -19,7 +19,7 @@ def main(args: List[Text] = None):
     )
     parser.add_argument(
         '--log-level',
-        default='DEBUG'
+        default='INFO'
     )
     options = parser.parse_args(args)
 
