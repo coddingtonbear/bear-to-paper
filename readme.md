@@ -9,9 +9,19 @@ notes into Paper.
 First, you'll need to get a Dropbox access token:
 
 1. Go to https://www.dropbox.com/developers/apps/create.
-    a. Select "Dropbox API" as your API selection.
-    b. Select "Full Dropbox" as the access level.
-    c. Enter a name for your new app -- I chose "Bear to Paper".
+    1. Select "Dropbox API" as your API selection.
+    2. Select "Full Dropbox" as the access level.
+    3. Enter a name for your new app -- I chose "Bear to Paper".
 2. You'll then be shown the app configuration page.
-    a. Click "Generate access token"
-    b. Save this token somewhere.
+    1. Click "Generate access token"
+    2. Save this token somewhere.  You'll be asked for this again
+       when you start the migration process
+
+Then, you can migrate your notes:
+
+```
+bear-to-paper /path/to/exported/markdown/file
+```
+
+Enter your Dropbox Access Token when asked, and wait for your notes and
+their attachments to be uploaded and converted into Paper documents.
